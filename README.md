@@ -5,7 +5,7 @@ This is an example shows how to integrate and export AKS control plane logs to E
 
 Configuration looks like this, with AKS, it provides control plane logs of kubernetes and native integrations for the logs with options. In this example, it shows how to achieve log integrations, AKS -> Event Hub -> Logstash/ELK out of the options
 
-![Deployment Architecture](images/conig01.png)
+![Deployment Architecture](images/config01.png)
 
 For the partner service integration, please find details from [here](https://docs.microsoft.com/en-us/azure/partner-solutions/overview)
 
@@ -34,7 +34,7 @@ With latest version of Logstash `7.13.1`, you don't need to install plugins sepa
 
 Save this at your host where with your Event Hub access over network as for example `eh-pipeline.conf`
 
-```json
+```javascript
 input {
    azure_event_hubs {
       event_hub_connections => ["<Connection String of your Event Hub instance>"]
