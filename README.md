@@ -23,9 +23,9 @@ With latest version of Logstash `7.13.1`, you don't need to install plugins sepa
 
 1. [Config Event Hub Namespace and instance](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create)
 2. [Adding Diagnostic Setting of AKS](https://docs.microsoft.com/en-us/azure/aks/view-control-plane-logs)
-  1. Add kubernetes logs from log & metric
-  2. Add Destination with Event Hub Namespace and instance
-  3. Save changes
+  * Add kubernetes logs from log & metric
+  * Add Destination with Event Hub Namespace and instance
+  * Save changes
 3. Deploy a pod for test 
 4. [Configure Logstash/ELK](#logstash-configuration)
 5. [Test by running Logstash](#running-logstash)
