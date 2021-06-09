@@ -1,4 +1,11 @@
 # Logs
+
+data
+tmp
+memo.txt
+decompile-templates.sh
+eh-pipeline.conf
+
 logs
 *.log
 npm-debug.log*

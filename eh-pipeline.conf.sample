@@ -1,0 +1,15 @@
+input {
+   azure_event_hubs {
+      event_hub_connections => ["<Connection String of your Event Hub instance>"]
+      threads => 8
+      decorate_events => true
+      consumer_group => ""<Consumer Group in your Event Hub instance>""
+      storage_connection => "<Connection String of your Storage Account>"
+   }
+}
+
+output {
+  stdout {
+    id => "kube-audit"
+  }
+}
