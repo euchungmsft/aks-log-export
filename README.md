@@ -27,7 +27,7 @@ With latest version of Logstash `7.13.1`, you don't need to install plugins sepa
     * Add Destination with Event Hub Namespace and instance
     * Save changes
 3. Deploy a pod for test 
-4. [Configure Logstash/ELK](#logstash-configuration)
+4. [Configure Logstash/ELK, adding a pipeline](#logstash-configuration)
 5. [Test by running Logstash](#running-logstash)
 
 ### Logstash Configuration
